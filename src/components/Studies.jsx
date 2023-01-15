@@ -18,7 +18,7 @@ function Studies() {
           duration={item.duration}
           company={item.company}
           description={item.description}
-          id={item.id}
+          key={item.id}
         />)
       )}
       </div>

@@ -47,7 +47,7 @@ function Contact() {
           />
 
           <button
-          className='px-8 py-3 w-max text-base font-medium rounded-md text-white dark:text-black bg-gradient-to-r from-indigo-700 to-orange-700 drop-shadow-md dark:from-indigo-300 dark:to-orange-300'
+          className='px-8 py-3 w-full md:w-max text-base font-medium rounded-md text-white dark:text-black bg-gradient-to-r from-indigo-700 to-orange-700 drop-shadow-md dark:from-indigo-300 dark:to-orange-300'
           > 
           Enviar el teu missatge <SendIcon />
           </button>

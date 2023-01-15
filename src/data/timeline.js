@@ -10,9 +10,9 @@ export default [
     {
         year: 'Actualment',
         title: 'Tènic Laboral',
-        duration: '06/2017 - ',
+        duration: '6 anys',
         company: 'Monday Assessoria',
-        description: 'Com a tècnic Laboral, estic de responsable d\'una part de la cartera i un equip de 3 persones, en tota la gestió integral que suposa la contractació i gestió dels treballadors i impostos que corresponen a cada client. Treballo amb el software A3 NOM, i paral.lelament dissenyo aplicacions internes, com ara una <a href="https://github.com/jorditosa/calculadora_Artistas" target="_blank">Calculadora dels salaris</a> en el Règim d\'Artistes construida principalment amb vanilla JavaScript.',
+        description: 'Com a tècnic Laboral, estic de responsable d\'una part de la cartera i un equip de 3 persones, en tota la gestió integral que suposa la contractació i gestió dels treballadors i impostos que corresponen a cada client. Treballo amb el software A3 NOM, i paral.lelament dissenyo aplicacions internes, com ara una calculadora del Règim d\'Artistes construida principalment amb vanilla JavaScript.',
         id: 1
     },
     {
@@ -20,7 +20,7 @@ export default [
         title: 'IT Recruiter',
         duration: '1 any',
         company: 'Aquaro',
-        description: 'Com a tècnic Laboral, estic de responsable d\'una part de la cartera i un equip de 3 persones, en tota la gestió integral que suposa la contractació i gestió dels treballadors i impostos que corresponen a cada client. Treballo amb el software A3 NOM, i paral.lelament dissenyo aplicacions internes, com ara una <a href="https://github.com/jorditosa/calculadora_Artistas" target="_blank">Calculadora dels salaris</a> en el Règim d\'Artistes construida principalment amb vanilla JavaScript.',
+        description: 'Com a tècnic de selecció, especialitzat en perfil del sector IT, la meva tasca era dur a terme tot el procés de selecció dels perfils demandats pels clients assignats, desde un contacte inicial i una recerca proactiva, fins la realització de les entrevistes fins la negociació i la proposta final.',
         id: 2
     },
 

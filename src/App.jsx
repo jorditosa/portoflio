@@ -8,6 +8,7 @@ import Studies from './components/Studies'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Fetch from './components/Fetch'
+import Portfolio from './components/Portfolio'
 
 function App() {
   const [theme, setTheme] = useState(null);
@@ -37,7 +38,7 @@ function App() {
       <button
       type='button'
       onClick={handleThemeSwitch}
-      className="fixed p-2 z-10 right-20 top-4 bg-indigo-100 text-lg rounded-md"
+      className="fixed p-2 z-10 right-4 top-4 bg-indigo-100 text-lg rounded-md"
       >
         {theme === 'dark' ? (<BsSun size={24}/>) : (<BsMoon size={24}/>) }
       </button>
@@ -46,6 +47,7 @@ function App() {
         <div className='max-w-5xl w-11/12 mx-auto'>
           <Intro />
           <Tech />
+          <Portfolio />
           <Timeline />
           <Studies />
           <Fetch />

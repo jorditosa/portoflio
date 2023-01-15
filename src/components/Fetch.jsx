@@ -13,15 +13,16 @@ function Fetch() {
   const [dogFact, setDogFact] = useState('')
 
 
-  const dogAPICall = () => {
-    const random = Math.floor(Math.random()*10)
-    fetch('https://dogapi.dog/api/v2/breeds')
-    .then(res => res.json())
-    .then(response => setDogFact(response.data[random].attributes.description))
+  const dogAPICall = async () => {
+    const response = await fetch('https://dogapi.dog/api/v2/breeds')
+    const data = await response.json();
+    return data;
   }
 
   useEffect(() => {
-    dogAPICall();
+    const random = Math.floor(Math.random()*10);
+
+    dogAPICall().then(text => setDogFact(text.data[random].attributes.description));
   }, [])
 
   return (
