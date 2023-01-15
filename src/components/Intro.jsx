@@ -7,6 +7,7 @@ const MainFoto = styled.img`
 background-image: url(${Foto});
 background-size: cover;
 border-radius: 50%;
+outline: 2px solid #3730a3;
 box-shadow: 2px 2px 5px 1px #3730a3;
 width: 100px;
 height: 100px;

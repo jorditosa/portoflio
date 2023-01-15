@@ -8,6 +8,7 @@ const SendIcon = styled(BiSend)`
 display: inline;
 font-size: 24px;
 margin: 0 0 0 6px;
+
 `;
 
 function Contact() {
