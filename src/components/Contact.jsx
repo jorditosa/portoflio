@@ -18,7 +18,7 @@ function Contact() {
         <form 
         action="https://getform.io/f/ebc6fb87-e691-4c00-bbf8-0fce57b44b5c"
         method='POST'
-        className='flex flex-col w-full md:w-7/12'
+        className='flex flex-col w-full md:w-8/12'
         >
         <Title>
           Parlem?  
@@ -46,7 +46,7 @@ function Contact() {
           />
 
           <button
-          className='px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-indigo-500 to-orange-500 drop-shadow-md'
+          className='px-8 py-3 w-max text-base font-medium rounded-md text-white dark:text-black bg-gradient-to-r from-indigo-700 to-orange-700 drop-shadow-md dark:from-indigo-300 dark:to-orange-300'
           > 
           Enviar el teu missatge <SendIcon />
           </button>

@@ -7,7 +7,7 @@ function Tech() {
   return (
     <>
       <section className='flex items-center flex-col justify-center'>
-        <div className='w-full md:w-7/12'>
+        <div className='w-full md:w-8/12'>
         <Title>
           Tecnologies  
         </Title>

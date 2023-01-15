@@ -26,12 +26,13 @@ function Fetch() {
 
   return (
     <div className='flex flex-col items-center justify-center my-10 text-stone-600 dark:text-stone-400 text-sm'>
-      <p className='w-full md:w-7/12 p-4 border-2 rounded-md focus:outline-none'>
+      <p className='text-indigo-800 dark:text-indigo-200 my-4'>
+        Et deixo una petita anècdota animal...fet amb Fetch <EmojiWink />
+      </p>
+      <p className='w-full md:w-8/12 p-4 border-2 rounded-md focus:outline-none'>
         {dogFact}
       </p>
-      <p className='text-indigo-700 dark:text-indigo-200 my-4'>Fet amb Fetch <EmojiWink />
-      </p>
-  </div>
+    </div>
   )
 }
 

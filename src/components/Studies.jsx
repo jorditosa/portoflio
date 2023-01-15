@@ -1,18 +1,18 @@
-import timeline from '../data/timeline'
-import TimelineItem from './TimelineItem'
+import studies from '../data/studies'
+import StudiesItem from './StudiesItem'
 import Title from './Title'
 
 
-function Timeline() {
+function Studies() {
   return (
     <div className='flex flex-col md:flex-row justify-center my-20'>
       <div className='w-full md:w-8/12'>
         <Title>
-          Experiència  
+          Formació  
         </Title>
      
-      { timeline.map( item => (
-        <TimelineItem 
+      { studies.map( item => (
+        <StudiesItem 
           year={item.year}
           title={item.title}
           duration={item.duration}
@@ -26,4 +26,4 @@ function Timeline() {
   )
 }
 
-export default Timeline
+export default Studies

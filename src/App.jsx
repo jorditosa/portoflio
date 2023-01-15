@@ -4,6 +4,7 @@ import {BsMoon} from 'react-icons/bs'
 import Intro from './components/Intro'
 import Tech from './components/Tech'
 import Timeline from './components/Timeline'
+import Studies from './components/Studies'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Fetch from './components/Fetch'
@@ -46,6 +47,7 @@ function App() {
           <Intro />
           <Tech />
           <Timeline />
+          <Studies />
           <Fetch />
           <Contact />
           <Footer />
