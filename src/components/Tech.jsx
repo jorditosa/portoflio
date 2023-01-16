@@ -1,5 +1,5 @@
 import {IoLogoHtml5, IoLogoCss3, IoLogoJavascript, IoLogoReact, IoGitBranchOutline, IoLogoSass} from 'react-icons/io5'
-import { SiTailwindcss } from 'react-icons/si'
+import { SiTailwindcss, SiStyledcomponents } from 'react-icons/si'
 import Title from './Title'
 
 function Tech() {
@@ -18,6 +18,7 @@ function Tech() {
               <IoLogoSass size={50} />
               <IoLogoJavascript size={50} />
               <IoLogoReact size={50} />
+              <SiStyledcomponents size={50} />
               <IoGitBranchOutline size={50} />
           </div>
         </div>

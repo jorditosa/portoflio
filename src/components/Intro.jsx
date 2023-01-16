@@ -30,6 +30,7 @@ function Intro() {
         <p className='text-normal w-full md:w-8/12 mb-6 font-bold text-start'>Soc desenvolupador web, especialitzant-se en la part font-end, amb gran capacitat d'actualitzar-se i mantenir-se al dia de les últimes actualitzacions i tecnologies. Aqui pots trobar els meus repositoris públics {' '} 
         <a className='text-indigo-600 hover:text-indigo-400 dark:text-indigo-300 dark:hover:text-indigo-100' href="https://github.com/jorditosa" target="_blank" rel="noopener noreferrer">a GitHub</a>
         </p>
+        <p className='text-start w-full md:w-8/12 mb-3'>Pot trucar-me al <a className='text-indigo-800 dark:text-indigo-400' href="tel:+34676253376">676 25 33 76</a></p> 
     </div>
   )
 }

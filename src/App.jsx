@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
-import {BsSun} from 'react-icons/bs'
-import {BsMoon} from 'react-icons/bs'
+import {BsSun, BsMoon} from 'react-icons/bs'
 import Intro from './components/Intro'
 import Tech from './components/Tech'
 import Timeline from './components/Timeline'
@@ -38,9 +37,9 @@ function App() {
       <button
       type='button'
       onClick={handleThemeSwitch}
-      className="fixed p-2 z-10 right-4 top-4 bg-indigo-100 text-lg rounded-md"
+      className="fixed p-2 z-10 right-4 top-4 text-lg rounded-md dark:bg-indigo-100"
       >
-        {theme === 'dark' ? (<BsSun size={24}/>) : (<BsMoon size={24}/>) }
+        {theme === 'dark' ? (<BsMoon size={24}/>) : (<BsSun size={24}/>) }
       </button>
       <div className='bg-white 
       dark:bg-stone-900 text-stone-900 dark:text-stone-200 min-h-screen font-inter'>

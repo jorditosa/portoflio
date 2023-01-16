@@ -10,29 +10,25 @@ margin-left: 1rem;
 `;
 
 function Fetch() {
-  const [dogFact, setDogFact] = useState('')
-
-
-  const dogAPICall = async () => {
-    const response = await fetch('https://dogapi.dog/api/v2/breeds')
-    const data = await response.json();
-    return data;
-  }
+  const [filmFact, setFilmFact] = useState('')
 
   useEffect(() => {
-    const random = Math.floor(Math.random()*10);
+    const random = Math.floor(Math.random()*6);
 
-    dogAPICall().then(text => setDogFact(text.data[random].attributes.description));
+    fetch('https://swapi.dev/api/films/')
+    .then(res => res.json())
+    .then(text => setFilmFact(text.results[random].title));
   }, [])
 
   return (
-    <div className='flex flex-col items-center justify-center my-10 text-stone-600 dark:text-stone-400 text-sm'>
+    <div className='flex flex-col items-center justify-center my-10 text-stone-800 dark:text-stone-200 text-md text-center'>
       <p className='text-indigo-800 dark:text-indigo-200 my-4'>
-        Et deixo una petita anècdota animal...fet amb Fetch <EmojiWink />
+        Quina pel·lícula de Star Wars vols que et recomani avui?.....fet amb fetch <EmojiWink />
       </p>
-      <p className='w-full md:w-8/12 p-4 border-2 rounded-md focus:outline-none'>
-        {dogFact}
+      <p className='w-full md:w-8/12 p-4 border-2 rounded-md focus:outline-none '>
+        {filmFact}
       </p>
+      <span className='py-2 text-sm text-stone-600 dark:text-stone-400'>SWAPI Api</span>
     </div>
   )
 }
