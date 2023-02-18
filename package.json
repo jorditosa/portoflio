@@ -10,8 +10,10 @@
   },
   "dependencies": {
     "html-react-parser": "^3.0.7",
+    "i18next": "^22.4.10",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-i18next": "^12.1.5"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",

@@ -1,23 +1,29 @@
-import studies from '../data/studies'
-import StudiesItem from './StudiesItem'
 import Title from './Title'
-
+import StudiesItem from './StudiesItem'
+import { useTranslation } from "react-i18next"
 
 function Studies() {
+
+  const [t, i18n] = useTranslation("global")
+  let studies = t('studies', { returnObjects: true })
+
+  console.log(i18n.language)
+  console.log(studies)
+
   return (
     <div className='flex flex-col md:flex-row justify-center my-20'>
       <div className='w-full md:w-8/12'>
         <Title>
-          Formació  
+          {t("headings.formation")}  
         </Title>
      
-      { studies.map( item => (
+      { studies.map( (item) => (
         <StudiesItem 
-          year={item.year}
-          title={item.title}
-          duration={item.duration}
-          company={item.company}
-          description={item.description}
+          year={t(item.year)}
+          title={t(item.title)}
+          duration={t(item.duration)}
+          company={t(item.company)}
+          description={t(item.description)}
           key={item.id}
         />)
       )}

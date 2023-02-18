@@ -1,0 +1,28 @@
+{
+  "header": {
+    "text": "Soy desarrollador web, especializándose en el frontend, con gran capacidad de actualizarse y mantenerse al día de las últimas updates y tecnologias. Aqui puedes encontrar, revisar y porque no coger alguna idea de mis repositorios públicos en GitHub",
+    "text-phone": "Puedes llamarme o mandarme un whatsapp cuando quieras"
+  },
+  "headings": {
+    "techno": "Tecnologías",
+    "formation": "Estudios"
+  },
+  "studies": [
+    {
+      "year": "Actualmente",
+      "title": "Máster en Desarrollo de páginas y apliaciones Web",
+      "duration": "01/2022 -",
+      "company": "Universitat Oberta de Catalunya",
+      "description": "Desarrollo de páginas y apliaciones Web, basados en trabajar y especializar la parte frontend, aprendiendo frameworks como Angular y React, pero además hay componente de backend con tecnologías como PHP y SQL.",
+      "id": 0
+    },
+    {
+      "year": "2010",
+      "title": "Diplomatura en Ciéncias Empresariales",
+      "duration": "2006 - 2010 ",
+      "company": "Universitat de Barcelona",
+      "description": "Diplomatura en Ciéncias Empresariales cursada a la UB, graduación donde trabajé con una amplia parte de lo que se aplica en una empresa y negocio, desde la parte de derecho mercantil, marketing, recursos humanos, contabilidad, herramientas TIC y estadística.",
+      "id": 1
+    }
+  ]
+}
