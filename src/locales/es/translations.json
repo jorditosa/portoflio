@@ -24,5 +24,12 @@
       "description": "Diplomatura en Ciéncias Empresariales cursada a la UB, graduación donde trabajé con una amplia parte de lo que se aplica en una empresa y negocio, desde la parte de derecho mercantil, marketing, recursos humanos, contabilidad, herramientas TIC y estadística.",
       "id": 1
     }
-  ]
+  ],
+  "contact": {
+    "title": "Hablamos?",
+    "name": "Tu nombre",
+    "email": "Tu email",
+    "message": "Tu mensaje",
+    "send": "¡Envia tu mensaje!"
+  }
 }

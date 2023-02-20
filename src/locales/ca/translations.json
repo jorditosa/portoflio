@@ -24,5 +24,12 @@
       "description": "Diplomatura en Ciències Empresarials cursada a la UB, graduació on es toca una part amplia de tot el que aplica a una empresa i negoci, desde la part de dret mercantil, marketing, recursos humans, contabilitat, eines TIC i estadística.",
       "id": 1
     }
-  ]
+  ],
+  "contact": {
+    "title": "Parlem?",
+    "name": "El teu nom",
+    "email": "El teu email",
+    "message": "El teu missatge",
+    "send": "Envia el teu missatge!"
+  }
 }
