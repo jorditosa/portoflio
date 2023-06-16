@@ -37,7 +37,7 @@ function App() {
 
   return (
     <>
-    <div className='w-full fixed bg-gradient-to-b from-indigo-300 to-white
+    <div className='w-full fixed z-0 bg-gradient-to-b from-indigo-300 
       dark:from-stone-900 dark:to-stone-800 text-stone-900
         p-4 flex justify-end'>
       <button
