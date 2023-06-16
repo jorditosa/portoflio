@@ -10,17 +10,20 @@ function Timeline() {
         <Title>
           Experiència  
         </Title>
+
+        <div className="py-10">
+        { timeline.map( item => (
+          <TimelineItem 
+            year={item.year}
+            title={item.title}
+            duration={item.duration}
+            company={item.company}
+            description={item.description}
+            key={item.id}
+          />)
+        )}
+        </div>
      
-      { timeline.map( item => (
-        <TimelineItem 
-          year={item.year}
-          title={item.title}
-          duration={item.duration}
-          company={item.company}
-          description={item.description}
-          key={item.id}
-        />)
-      )}
       </div>
     </div>
   )

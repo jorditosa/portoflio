@@ -37,8 +37,9 @@ function App() {
 
   return (
     <>
-    <div className='w-full bg-white 
-      dark:bg-stone-900 p-4 flex justify-end'>
+    <div className='w-full fixed bg-gradient-to-b from-indigo-300 to-white
+      dark:from-stone-900 dark:to-stone-800 text-stone-900
+        p-4 flex justify-end'>
       <button
       type='button'
       onClick={handleThemeSwitch}
@@ -65,7 +66,7 @@ function App() {
 
       <div className='bg-white 
       dark:bg-stone-900 text-stone-900 dark:text-stone-200 min-h-screen font-inter'>
-        <div className='max-w-5xl w-11/12 mx-auto'>
+        <div className='max-w-6xl w-11/12 mx-auto'>
           <Intro />
           <Tech />
           <Portfolio />

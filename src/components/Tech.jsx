@@ -1,4 +1,4 @@
-import {IoLogoHtml5, IoLogoCss3, IoLogoJavascript, IoLogoReact, IoGitBranchOutline, IoLogoSass} from 'react-icons/io5'
+import {IoLogoHtml5, IoLogoCss3, IoLogoJavascript, IoLogoReact, IoGitBranchOutline, IoLogoSass, IoLogoLaravel} from 'react-icons/io5'
 import { SiTailwindcss, SiStyledcomponents } from 'react-icons/si'
 import Title from './Title'
 import { useTranslation } from "react-i18next"
@@ -14,15 +14,16 @@ function Tech() {
         <Title>
         {t("headings.techno")}    
         </Title>
-          <div className='flex flex-wrap justify-center text-indigo-800 dark:text-indigo-200 gap-10'>
-              <IoLogoHtml5 size={50} />
-              <IoLogoCss3 size={50} />
-              <SiTailwindcss size={50} />
-              <IoLogoSass size={50} />
-              <IoLogoJavascript size={50} />
-              <IoLogoReact size={50} />
-              <SiStyledcomponents size={50} />
-              <IoGitBranchOutline size={50} />
+          <div className='py-10 grid grid-cols-3 md:grid-cols-5 place-items-center text-indigo-800 dark:text-indigo-200 gap-10'>
+              <IoLogoHtml5 size={75} />
+              <IoLogoCss3 size={75} />
+              <SiTailwindcss size={75} />
+              <IoLogoSass size={75} />
+              <IoLogoJavascript size={75} />
+              <IoLogoReact size={75} />
+              <SiStyledcomponents size={75} />
+              <IoLogoLaravel size={75} />
+              <IoGitBranchOutline size={75} />
           </div>
         </div>
       </section>

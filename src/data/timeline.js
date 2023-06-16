@@ -9,10 +9,10 @@ export default [
     },
     {
         year: 'Actualment',
-        title: 'Tènic Laboral',
-        duration: '6 anys',
+        title: 'Maquetador i tècnic laboral',
+        duration: '2017 - 08/2023',
         company: 'Monday Assessoria',
-        description: 'Com a tècnic Laboral, estic de responsable d\'una part de la cartera i un equip de 3 persones, en tota la gestió integral que suposa la contractació i gestió dels treballadors i impostos que corresponen a cada client. Treballo amb el software A3 NOM, i paral.lelament dissenyo aplicacions internes, com ara una calculadora del Règim d\'Artistes construida principalment amb vanilla JavaScript.',
+        description: 'Com a maquetador web jr. i tècnic Laboral, he estat responsable d\'una part de la cartera i un equip de 3 persones, en tota la gestió integral que suposa la contractació i gestió dels treballadors i impostos que corresponen a cada client. Treballo amb el software A3 NOM. En aquest últim any, me dedicat a crear webs i aplicacions de treball intern, per a noves branques de negoci i sobretot calculadores per us intern i de nous usuaris, creades amb vanilla JavaScript.',
         id: 1
     },
     {

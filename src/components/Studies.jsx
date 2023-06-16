@@ -16,17 +16,20 @@ function Studies() {
         <Title>
           {t("headings.formation")}  
         </Title>
+
+        <div className="py-10">
+          { studies.map( (item) => (
+            <StudiesItem 
+              year={t(item.year)}
+              title={t(item.title)}
+              duration={t(item.duration)}
+              company={t(item.company)}
+              description={t(item.description)}
+              key={item.id}
+            />)
+          )}
+        </div>
      
-      { studies.map( (item) => (
-        <StudiesItem 
-          year={t(item.year)}
-          title={t(item.title)}
-          duration={t(item.duration)}
-          company={t(item.company)}
-          description={t(item.description)}
-          key={item.id}
-        />)
-      )}
       </div>
     </div>
   )
