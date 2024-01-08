@@ -1,6 +1,6 @@
-import Title from './Title'
-import StudiesItem from './StudiesItem'
 import { useTranslation } from "react-i18next"
+import Title from '../../components/Title'
+import StudiesItem from './StudiesItem'
 
 function Studies() {
 
@@ -8,7 +8,6 @@ function Studies() {
   let studies = t('studies', { returnObjects: true })
 
   console.log(i18n.language)
-  console.log(studies)
 
   return (
     <div className='flex flex-col md:flex-row justify-center my-20'>

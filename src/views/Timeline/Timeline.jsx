@@ -1,6 +1,6 @@
-import timeline from '../data/timeline'
+import Title from '../../components/Title'
+import timeline from '../../data/timeline'
 import TimelineItem from './TimelineItem'
-import Title from './Title'
 
 
 function Timeline() {
